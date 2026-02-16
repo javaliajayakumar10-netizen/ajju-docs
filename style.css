@@ -1,0 +1,113 @@
+:root {
+    --bg: #0f172a;
+    --text: #ffffff;
+    --card: #1e293b;
+    --accent: #3b82f6;
+}
+
+body.light {
+    --bg: #f4f4f4;
+    --text: #111827;
+    --card: #ffffff;
+    --accent: #2563eb;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background: var(--card);
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar nav a {
+    display: block;
+    color: var(--accent);
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.sidebar button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 260px;
+    padding: 40px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    border-radius: 12px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.badges img {
+    margin: 5px;
+}
+
+section {
+    margin-top: 60px;
+    animation: slideUp 0.8s ease;
+}
+
+pre {
+    background: var(--card);
+    padding: 15px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+footer {
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.6;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slideUp {
+    from {transform: translateY(20px); opacity: 0;}
+    to {transform: translateY(0); opacity: 1;}
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .layout {
+        flex-direction: column;
+    }
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    main {
+        margin-left: 0;
+    }
+}
