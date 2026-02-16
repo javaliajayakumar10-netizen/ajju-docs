@@ -1,29 +1,3 @@
-# ajju-docs
-
-Below is a **professional, premium README.md** for your repository
-**AJJU – YT Downloader PRO**
-
-You can copy this directly into your `README.md`.
-
----
-
-````markdown
-# 🚀 AJJU – YT Downloader PRO
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-1.0.0-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/CLI-Tool-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-informational?style=for-the-badge">
-</p>
-
-<p align="center">
-  A powerful Python-based command-line YouTube downloader  
-  built with <b>yt-dlp</b> and enhanced with a beautiful terminal UI using <b>rich</b>.
-</p>
-
----
-
 ## 📌 Overview
 
 **AJJU – YT Downloader PRO** is a professional CLI tool designed to:
@@ -188,17 +162,3 @@ If you find this project useful:
 © 2026 Javali Ajayakumar
 All rights reserved.
 
-```
-
----
-
-If you want, I can also create:
-
-- 🔥 Ultra-modern animated README (with GIF preview)
-- 📸 Terminal demo GIF creation guide
-- 🏆 Professional Open Source license version
-- 📦 PyPI-ready README version
-- 🎨 Banner image for top of README
-
-Tell me which one you want.
-```
